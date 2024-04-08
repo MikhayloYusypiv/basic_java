@@ -1,4 +1,4 @@
-package basic;
+package basic.LR0;
 
 class HelloWorld {
     public static void main(String[] args) {
