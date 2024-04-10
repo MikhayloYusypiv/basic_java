@@ -1,9 +1,5 @@
 package basic.LR3;
 
-import basic.LR3.controller.Creator;
-import basic.LR3.controller.DepartmentCreator;
-import basic.LR3.controller.FacultyCreator;
-import basic.LR3.controller.GroupCreator;
 import basic.LR3.model.*;
 import java.util.Scanner;
 
@@ -133,15 +129,6 @@ public class Run {
         group.setName("103-20-2");
         Human head = (new Human("Данило", "Данілко", "Данилович", Sex.MALE));
         group.setHead(head);
-
-//        Creator facultyCreator = new FacultyCreator();
-//        facultyCreator.create();
-
-//        Creator departmentCreator = new DepartmentCreator();
-//        departmentCreator.create();
-
-//        Creator groupCreator = new GroupCreator();
-//        groupCreator.create();
 
         System.out.println("Назва університету: " + university.getName());
         System.out.println("Ректор: " + university.getRector().getFirstName() + " " + university.getRector().getLastName());
